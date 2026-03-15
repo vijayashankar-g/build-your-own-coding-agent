@@ -3,6 +3,10 @@
 A hands-on course that builds a **Python debugging AI agent from scratch**.  
 Each step is self-contained, runnable, and adds exactly one new concept.
 
+![Architecture](architecture.png)
+
+![Pseudocode](pseudocode.png)
+
 ```
 Step 1 ──▶ Step 2 ──▶ Step 3 ──▶ Step 4 ──▶ Step 5
  API call   Chat +     Tools      State +     Full
