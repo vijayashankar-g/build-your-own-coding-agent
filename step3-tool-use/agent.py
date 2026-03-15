@@ -39,7 +39,7 @@ class Tools:
 
     def __init__(self):
         self.client = OpenAI()
-        self.project_dir = Path(".").resolve()
+        self.project_dir = Path("./step3-tool-use").resolve()
 
         # Stored so fix_file can include recent error context in its prompt
         self.last_stdout = ""

@@ -5,7 +5,9 @@
 from helper import multiply
 
 results = []
-for i in range(1, 4):
+for i in range(1, 4):sdsd
     results.append(multiply(i, 10))
 
+total = sum(results)  # This will raise TypeError if multiply() returns strings
 print("Results:", results)
+print("Total:", total)

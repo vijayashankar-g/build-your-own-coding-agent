@@ -71,6 +71,7 @@ bot = ChatBot(
     system_prompt=(
         "You are a helpful Python tutor. "
         "Explain concepts clearly with short code examples. "
+        "You can remember the conversation history and refer back to it in the same sessions. "
         "Keep answers concise."
     )
 )

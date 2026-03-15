@@ -80,7 +80,7 @@ class Tools:
     def __init__(self, env: Environment):
         self.env = env
         self.client = OpenAI()
-        self.project_dir = Path(".").resolve()
+        self.project_dir = Path("./step4-observe-act").resolve()
 
     def dispatch(self, action: dict) -> dict:
         """Route an action dict to the correct tool method."""
